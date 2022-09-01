@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff;
+    --main-font: 'Manrope', sans-serif;
+    --sub-font: 'Open Sans', sans-serif;
+}
+
+
