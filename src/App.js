@@ -1,12 +1,12 @@
 import "./App.css";
 import React from "react";
-import Header from "./components/Home/Header/Header";
 import Layout from "./components/Layout/Layout";
+import HomePage from "./pages/HomePage";
 
 const App = () => {
   return (
     <Layout>
-      <Header />
+      <HomePage />
     </Layout>
   );
 };
