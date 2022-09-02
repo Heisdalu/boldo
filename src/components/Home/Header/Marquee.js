@@ -9,7 +9,7 @@ const Marquee = () => {
       className={style.headerMarquee}
       gradientColor={[10, 38, 64]}
       gradientWidth={100}
-      speed={30}
+      speed={80}
     >
       <span className={style.element}>
         <img src={first_pic} alt="" />
