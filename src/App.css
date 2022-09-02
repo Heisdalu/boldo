@@ -8,9 +8,15 @@
   --white: #ffffff;
   --main-font: "Manrope", sans-serif;
   --sub-font: "Open Sans", sans-serif;
-  --dark-blue: #0A2640;
-  --half-circle: #1C3D5B;
-  --green: #65E4A3;
+  --dark-blue: #0a2640;
+  --half-circle: #1c3d5b;
+  --green: #65e4a3;
+  --gray: #777777;
+  --black: #000000;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
 }
 
 a,
@@ -20,3 +26,9 @@ button {
   background-color: transparent;
   text-decoration: none;
 }
+
+
+img {
+  display: block;
+}
+
