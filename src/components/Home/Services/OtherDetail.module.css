@@ -1,0 +1,54 @@
+.otherDetailContainer {
+  border: 1px solid;
+  padding: 1rem 0;
+}
+
+.header {
+  border: 1px solid;
+  font-family: var(--main-font);
+  font-weight: 400;
+  color: var(--black);
+  line-height: 150%;
+  line-height: 2.86rem;
+  font-size: 1.875rem;
+}
+
+.listBox {
+  margin: 2rem 0;
+}
+
+.list {
+  display: flex;
+  padding: 1rem 1.3rem;
+  border-radius: 4px;
+  /* align-items: center; */
+  margin-bottom: 1.3rem;
+  box-shadow: 0 0 32px 1px #00000014;
+  background-color: var(--white);
+}
+
+.svg {
+    margin-right: 1rem;
+}
+
+.text {
+  font-family: var(--sub-font);
+  font-size: 0.8rem;
+  font-weight: 600;
+  /* line-height: 170%; */
+  line-height: 1.37rem;
+  color: var(--black);
+}
+
+.list:hover {
+  background-color: var(--dark-blue);
+}
+
+.list:hover .text {
+  color: var(--white);
+}
+
+.list:hover svg path {
+    stroke: var(--white);
+}
+
