@@ -1,13 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --white: #ffffff;
-    --main-font: 'Manrope', sans-serif;
-    --sub-font: 'Open Sans', sans-serif;
+  --white: #ffffff;
+  --main-font: "Manrope", sans-serif;
+  --sub-font: "Open Sans", sans-serif;
+  --dark-blue: #0A2640;
+  --half-circle: #1C3D5B;
+  --green: #65E4A3;
 }
 
-
+a,
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-decoration: none;
+}
