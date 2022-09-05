@@ -37,7 +37,7 @@ figure img {
     color: var(--gray);
     font-family: var(--sub-font);
     font-weight: 400;
-    /* letter-spacing: 1px; */
+    line-height: 25.6px;
 }
 
 .link{

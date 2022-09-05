@@ -8,8 +8,7 @@
   font-family: var(--main-font);
   font-weight: 400;
   color: var(--black);
-  line-height: 150%;
-  line-height: 2.86rem;
+  line-height: 2.8125rem;
   font-size: 1.875rem;
 }
 
@@ -37,7 +36,8 @@
   font-size: 0.8rem;
   font-weight: 600;
   /* line-height: 170%; */
-  line-height: 1.37rem;
+  line-height: 1.53125rem;
+  /* line-height: 24.5px; */
   color: var(--black);
 }
 

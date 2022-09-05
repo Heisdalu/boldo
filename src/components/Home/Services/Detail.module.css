@@ -11,8 +11,7 @@
     font-family: var(--main-font);
     font-weight: 400;
     color: var(--black);
-    line-height: 150%;
-    line-height: 2.86rem;
+    line-height: 2.8125rem;
     font-size: 1.875rem;
 }
 
