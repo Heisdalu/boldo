@@ -10,33 +10,33 @@ const OtherDetail = () => {
         We connect our customers with the best, and help them keep up-and stay
         open.
       </h1>
-      <div className={style.listBox}>
-        <div className={style.list}>
+      <ul className={style.listBox}>
+        <li className={style.list}>
           <span className={style.svg}>
             <Star />
           </span>
           <span className={style.text}>
             We connect our customers with the best.
           </span>
-        </div>
+        </li>
 
-        <div className={style.list}>
+        <li className={style.list}>
           <span className={style.svg}>
             <Eye />
           </span>
           <span className={style.text}>
             Advisor success customer launch party.
           </span>
-        </div>
+        </li>
 
-        <div className={style.list}>
+        <li className={style.list}>
           <span className={style.svg}>
             <Sun />
           </span>
 
           <span className={style.text}>Business-to-consumer long tail.</span>
-        </div>
-      </div>
+        </li>
+      </ul>
 
       <figure className={style.image}>
         <picture>

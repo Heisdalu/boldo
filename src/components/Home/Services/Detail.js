@@ -21,17 +21,17 @@ const Detail = () => {
             stay open.
           </h1>
 
-          <div className={style.mainText}>
-            <div className={style.mainList}>
+          <ul className={style.mainText}>
+            <li className={style.mainList}>
               <span className={style.svg}>
                 <Tick />
               </span>
               <span className={style.mainInfo}>
                 We connect of customers with the best.
               </span>
-            </div>
+            </li>
 
-            <div className={style.mainList}>
+            <li className={style.mainList}>
               <span className={style.svg}>
                 <Tick />
               </span>
@@ -39,19 +39,19 @@ const Detail = () => {
               <span className={style.mainInfo}>
                 Advisor success customer launch party.
               </span>
-            </div>
+            </li>
 
-            <div className={style.mainList}>
+            <li className={style.mainList}>
               <span className={style.svg}>
                 <Tick />
               </span>
               <span className={style.mainInfo}>
                 Business-to-consumer long tail.
               </span>
-            </div>
+            </li>
 
             <button className={style.button}>Start Now</button>
-          </div>
+          </ul>
         </div>
       </div>
 
