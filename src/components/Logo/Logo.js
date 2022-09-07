@@ -1,14 +1,18 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import LogoPic from "../../assets/Logo.svg";
+import { BoldoLogo } from "../../assets/Svg";
 import style from "./Logo.module.css";
 
-const Logo = () => {
+const Logo = (props) => {
+  const textColor = props.value ? "#ffffff" : "#0a2640";
+
   return (
     <a href="#" className={style.logo}>
       <span className={style.logoInner}>
-        <img src={LogoPic} alt="Boldo logo" />
+        <BoldoLogo color={props.value} />
       </span>
-      <span className={style.logoText}>Boldo</span>
+      <span className={style.logoText} style={{ color: textColor }}>
+        Boldo
+      </span>
     </a>
   );
 };

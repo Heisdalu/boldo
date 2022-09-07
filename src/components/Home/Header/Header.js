@@ -9,7 +9,7 @@ const Header = () => {
     <div className={style.headerContainer}>
       {/* navigation  */}
       <div className={style.navigationContainer}>
-        <Logo />
+        <Logo value={true}/>
         <nav className={style.navigation}>
           <a href="#.com">Blog</a>
           <a href="#.com">Products</a>
