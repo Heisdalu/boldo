@@ -1,6 +1,7 @@
 .sliderContainer {
   border: 1px solid;
   padding: 2rem 1rem;
+  padding-bottom: 5rem;
   background-color: var(--dark-blue);
 }
 

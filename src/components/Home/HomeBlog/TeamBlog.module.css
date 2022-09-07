@@ -1,0 +1,42 @@
+.teamBlog {
+  border: 1px solid;
+}
+
+.header {
+  text-align: center;
+  font-weight: 400;
+}
+
+.headerTitle {
+  font-size: 1rem;
+  color: var(--gray);
+  font-family: var(--sub-font);
+  font-weight: 400;
+}
+
+.headerText {
+  padding: 1rem 0;
+  font-size: 2.1875rem;
+  line-height: 3.4125rem;
+  color: var(--black);
+  font-family: var(--main-font);
+}
+
+.blogWrapper {
+  border: 1px solid;
+  padding: 1rem 0;
+}
+
+
+.loadBtn{
+  border: 2px solid var(--dark-blue);
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 56px;
+  color: var(--dark-blue);
+  font-weight: 700;
+  font-family: var(--sub-font);
+  cursor: pointer;
+  line-height: 1rem;
+}

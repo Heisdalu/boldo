@@ -1,0 +1,52 @@
+.list {
+  margin: 2rem 0;
+  cursor: pointer;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.listItem {
+  line-height: 25.6px;
+  font-size: 1rem;
+  font-family: var(--main-font);
+  font-weight: 400;
+  display: flex;
+  place-items: center;
+  transition: height 2s;
+}
+
+.arrowDown {
+  margin-left: auto;
+  height: 28px;
+  width: 28px;
+  transition: transform .7s;
+}
+
+.inverted {
+  transform: rotate(-180deg);
+  transition: transform .7s;
+}
+
+.listDropDown {
+  /* display: none; */
+  margin-top: 1rem;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.7s;
+  will-change: height;
+  font-size: 0.8rem;
+  line-height: 24.5px;
+  font-family: var(--sub-font);
+  color: var(--black);
+  font-weight: 400;
+
+  margin-top: -10px;
+}
+
+.hiddenList {
+  margin-top: 0;
+  max-height: 70px;
+  opacity: 1;
+  transition: all 0.7s;
+}

@@ -37,7 +37,8 @@ img {
 }
 
 .carousel-initialized {
-  overflow: visible !important;
+  /* overflow: visible !important; */
+  padding: 30px 0 !important;
 }
 
 .carousel-next,
