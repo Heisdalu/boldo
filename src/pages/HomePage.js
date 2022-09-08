@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Home/Header/Header";
 import HomeBlog from "../components/Home/HomeBlog/HomeBlog";
 import Service from "../components/Home/Services/Service";
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Service />
       <Team />
       <HomeBlog />
+      <Footer />
     </>
   );
 };
