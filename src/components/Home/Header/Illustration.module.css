@@ -5,3 +5,10 @@
 .illustration img {
     width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+    .illustration {
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+}

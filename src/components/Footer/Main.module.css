@@ -6,6 +6,24 @@
   padding: 20px 1rem;
   background-color: var(--dark-blue);
   border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.FooterMain::after {
+  content: "";
+  display: block;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  height: 80vmin;
+  width: 80vmin;
+  transform: translateX(30%) translateY(-70%);
+  background-color: var(--half-circle);
+  z-index: 1;
 }
 
 .title {
@@ -16,6 +34,7 @@
   line-height: 54.6px;
   text-align: center;
   color: var(--white);
+  z-index: 2;
 }
 
 .footerBtn {
@@ -23,6 +42,7 @@
   margin: 1.3rem 0;
   display: flex;
   flex-direction: column;
+  z-index: 2;
 }
 
 .input,
@@ -33,6 +53,7 @@
   margin: 0.5rem 0;
   font-size: 1.25rem;
   color: #333333;
+  z-index: 2;
 }
 
 .input {
@@ -54,12 +75,33 @@
   font-weight: 700;
 }
 
-.error{
-    color: red;
-    line-height: 1.3rem;
-    font-weight: 700;
-    font-family: var(--sub-font);
-    text-align: center;
-    padding-top: 5px;
-    display: none;
+.error {
+  color: red;
+  line-height: 1.3rem;
+  font-weight: 700;
+  font-family: var(--sub-font);
+  text-align: center;
+  padding-top: 5px;
+  display: none;
+}
+
+
+@media screen and (min-width:768px) {
+  .FooterMain {
+    padding: 2rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 74.88px;
+  }
+
+  .input {
+    margin-bottom: 1rem;
+  }
+
+  .FooterMain::after {
+    width: 60vmin;
+    height: 55vmin;
+  }
 }

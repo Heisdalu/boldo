@@ -7,7 +7,7 @@
 }
 
 .service{
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align: center;
     margin: 0 auto;
     max-width: 700px;
@@ -28,4 +28,20 @@
     line-height: 156%;
     line-height: 3.2rem;
     font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+
+    .serviceContainer {
+        padding: 3rem;
+    }
+
+    .title{
+        font-size: 1.25rem;
+    }
+
+    .content {
+        font-size: 3rem;
+        line-height: 74.88px;
+    }
 }

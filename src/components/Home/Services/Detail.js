@@ -8,7 +8,7 @@ const Detail = () => {
   return (
     <section className={style.detailContainer}>
       <div className={style.mainDetail}>
-        <figure>
+        <figure className={style.figure}>
           <picture>
             <source srcSet={pic1Webp} type="image/webp" />
             <img src={pic1Png} alt="A man smiling with his phone on the ear" />

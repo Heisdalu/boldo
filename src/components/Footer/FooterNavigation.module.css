@@ -1,11 +1,9 @@
 .FooterNavigation {
   /* border: 1px solid; */
   margin: 2rem 0;
+  padding: 0 0.5rem;
 }
 
-.aboutBox {
-  border: 1px solid;
-}
 
 .aboutText {
   padding: 1.5rem 0 1rem 0;
@@ -40,6 +38,7 @@
 
 .navBox a {
   margin: 0.5rem 0;
+  margin-top: 1rem;
   color: var(--gray);
   font-size: 1.25rem;
   font-weight: 400;
@@ -64,4 +63,57 @@
   color: var(--dark-blue);
   background-color: var(--green);
   margin-left: 5px;
+}
+
+
+@media screen and (min-width:768px) {
+  .FooterNavigation {
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+  }
+
+  .aboutBox a {
+    height: auto;
+  }
+
+  .navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+  }
+
+  .navBox {
+    margin: 0;
+  }
+
+  .aboutText {
+    font-size: 1rem;
+    line-height: 28px;
+    max-width: 320px;
+    padding-right: 2rem;
+  }
+
+  .navHeader{
+    font-size: 1.25rem;
+  }
+
+  .navBox a {
+    margin: 1rem 0 2rem 0;
+  }
+
+  .careerTag{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .hiringTag {
+    margin-left: 0.5rem;
+    display: block;
+  }
+
+  .privacy {
+    font-size: 1rem;
+  }
+
 }

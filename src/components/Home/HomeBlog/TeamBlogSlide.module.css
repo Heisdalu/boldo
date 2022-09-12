@@ -36,7 +36,7 @@
   font-family: var(--sub-font);
   line-height: 25.6px;
   /* border: 1px solid; */
-  padding: 10px 1rem 10px 0;
+  padding: 10px 1rem 5px 0;
 }
 
 .profile {
@@ -58,4 +58,24 @@
   font-size: 0.8rem;
   color: var(--black);
   line-height: 24.5px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .blogDetail h3 {
+    font-size: 1rem;
+  }
+
+  .blogDetail time {
+    font-size: 1rem;
+  }
+
+  .blogInfo {
+    font-size: 1.25rem;
+    line-height: 32px;
+  }
+
+  .profile h3 {
+    font-size: 1rem;
+  }
 }

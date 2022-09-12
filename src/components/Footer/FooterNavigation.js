@@ -22,7 +22,7 @@ const FooterNavigation = () => {
         <div className={style.navBox}>
           <h3 className={style.navHeader}>Company</h3>
           <a href="#Home">Home</a>
-          <a href="#Careers">
+          <a href="#Careers" className={style.careerTag}>
             Careers <span className={style.hiringTag}>Hiring!</span>
           </a>
           <a href="#Services">Services</a>

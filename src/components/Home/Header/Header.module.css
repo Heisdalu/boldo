@@ -7,9 +7,9 @@
   overflow: hidden;
 }
 
-.navigationContainer {
+/* .navigationContainer {
   padding: 1rem 0;
-}
+} */
 
 .headerContainer::after {
   content: "";
@@ -45,7 +45,7 @@
   position: relative;
   z-index: 3;
   /* border: 1px solid; */
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .headerTitle {
@@ -70,7 +70,7 @@
   /* border: 1px solid; */
   display: flex;
   flex-direction: column;
-  padding: 1rem 0;
+  padding-top: 1rem;
 }
 
 .headerNavigation button {
@@ -90,4 +90,32 @@
 .explore {
   border: 2px solid var(--white);
   color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .headerContainer {
+    padding: 1.5rem 3rem;
+  }
+
+  .headerTitle {
+    font-size: 3rem;
+    line-height: 74px;
+    padding-right: 2rem;
+  }
+
+  .headerContext {
+    padding-right: 5rem;
+    font-size: 1rem;
+    line-height: 28px;
+  }
+
+  .headerNavigation {
+    flex-direction: row;
+  }
+
+  .headerNavigation button {
+    padding: 1.3rem 3.5rem;
+    margin-right: 1.3rem;
+  }
+
 }

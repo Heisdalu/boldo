@@ -1,7 +1,7 @@
 .list {
   margin: 2rem 0;
   cursor: pointer;
-  padding-bottom: 1.5rem;
+  padding-bottom: 5px;
   border-bottom: 1px solid #c4c4c4;
 }
 
@@ -28,7 +28,6 @@
 }
 
 .listDropDown {
-  /* display: none; */
   margin-top: 1rem;
   overflow: hidden;
   max-height: 0;
@@ -40,8 +39,8 @@
   font-family: var(--sub-font);
   color: var(--black);
   font-weight: 400;
-
   margin-top: -10px;
+  padding-top: 1rem;
 }
 
 .hiddenList {
@@ -49,4 +48,27 @@
   max-height: 70px;
   opacity: 1;
   transition: all 0.7s;
+}
+
+
+@media screen and (min-width: 768px) {
+  .list{
+    margin: 0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .arrowDown {
+    align-self: flex-start;
+  }
+
+  .listItem {
+    line-height: 32px;
+    font-size: 1.25rem;
+  }
+
+  .hiddenList {
+    line-height: 28px;
+    font-size: 1rem;
+  }
 }

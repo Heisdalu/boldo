@@ -15,7 +15,7 @@ const List = () => {
   return (
     <li className={style.list} onClick={func}>
       <div className={style.listItem}>
-        <span>We connect our customers with the best</span>
+        <span>We connect our customers with the best?</span>
         <span className={style.arrowDown} ref={svgRef}>{<ArrowDown />}</span>
       </div>
 

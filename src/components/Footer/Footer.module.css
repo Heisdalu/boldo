@@ -1,6 +1,11 @@
 .footer {
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 1rem;
   background-color: var(--white);
 }
 
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 3rem;
+  }
+}

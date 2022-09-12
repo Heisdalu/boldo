@@ -3,6 +3,8 @@ import TeamBlogSlide from "./TeamBlogSlide";
 import { teamData } from "../../../data";
 
 const TeamBlog = () => {
+
+
   return (
     <section className={style.teamBlog}>
       <div className={style.header}>
@@ -13,10 +15,9 @@ const TeamBlog = () => {
       </div>
 
       <div className={style.blogWrapper}>
-        {/* <TeamBlogSlide /> */}
-        {/* <TeamBlogSlide /> */}
         {teamData.map((el, i) => (
           <TeamBlogSlide
+          key={i}
             image={el.bgPic}
             title={el.title}
             profilePic={el.profilePic}
@@ -24,8 +25,8 @@ const TeamBlog = () => {
           />
         ))}
 
-        <button className={style.loadBtn}>Load More</button>
       </div>
+        <button className={style.loadBtn}>Load More</button>
     </section>
   );
 };
