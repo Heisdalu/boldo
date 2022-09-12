@@ -1,16 +1,10 @@
 .sliderContainer {
-  border: 1px solid;
   padding: 2rem 1rem;
   padding-bottom: 5rem;
   background-color: var(--dark-blue);
 }
 
-.sliderHeader {
-    border: 1px solid;
-}
-
 .sliderTitle {
-  /* border: 1px solid; */
   font-size: 1.875rem;
   font-weight: 400;
   font-family: var(--main-font);
@@ -19,7 +13,6 @@
 }
 
 .sliderNavigation {
-  border: 1px solid;
   display: flex;
   justify-content: right;
   margin-left: auto;
@@ -62,4 +55,16 @@
     grid-template-columns: 1.5fr 1fr;
     margin-bottom: 1rem;
   }
+
+  .sliderTitle {
+    font-size: 3rem;
+    line-height: 72px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sliderContainer {
+    padding: 4rem 5rem;
+  }
+
 }

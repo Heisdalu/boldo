@@ -20,7 +20,6 @@
 }
 
 .blogWrapper {
-  /* border: 1px solid; */
   padding: 1rem 0;
 }
 
@@ -53,6 +52,8 @@
   .headerText {
     font-size: 3rem;
     line-height: 74.88px;
+    max-width: 1000px;
+    margin: 0 auto;
   }
 
   .blogWrapper {
@@ -67,5 +68,13 @@
     margin: 0 auto;
     padding: 1.5rem 4.3rem;
     font-size: 1.25rem;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .blogWrapper {
+    grid-column-gap: 3rem;
+    padding: 2rem 3rem;
   }
 }

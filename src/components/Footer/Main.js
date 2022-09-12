@@ -9,7 +9,7 @@ const Main = () => {
 
       <div className={style.footerBtn}>
         <input
-          type="text"
+          type="email"
           placeholder="Your email address"
           className={style.input}
         />

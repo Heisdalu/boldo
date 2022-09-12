@@ -1,5 +1,4 @@
 .blogCard {
-  /* border: 1px solid red; */
   margin: 1rem 0 2.5rem 0;
 }
 
@@ -11,7 +10,6 @@
 }
 
 .blogDetail {
-  /* border: 1px solid; */
   font-family: var(--sub-font);
   margin-top: 1rem;
 }
@@ -35,12 +33,10 @@
   font-weight: 400;
   font-family: var(--sub-font);
   line-height: 25.6px;
-  /* border: 1px solid; */
   padding: 10px 1rem 5px 0;
 }
 
 .profile {
-  /* border: 1px solid; */
   padding: 0.5rem 0;
   display: flex;
   align-items: center;

@@ -43,7 +43,7 @@ const OtherDetail = () => {
           <source srcSet={womanPicWebp} type="image/webp" />
           <img
             src={womanPicPng}
-            alt="A woman smiling with his phone on the ear"
+            alt="A woman smiling with a phone on her ear"
           />
         </picture>
       </figure>

@@ -1,5 +1,4 @@
 .serviceContainer{
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,7 +6,6 @@
 }
 
 .service{
-    /* border: 1px solid; */
     text-align: center;
     margin: 0 auto;
     max-width: 700px;
@@ -43,5 +41,18 @@
     .content {
         font-size: 3rem;
         line-height: 74.88px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .serviceContainer {
+        padding: 3rem 5rem;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .service {
+        max-width: 900px;
     }
 }

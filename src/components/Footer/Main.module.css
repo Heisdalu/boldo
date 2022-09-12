@@ -1,5 +1,4 @@
 .FooterMain {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +13,6 @@
 .FooterMain::after {
   content: "";
   display: block;
-  background-color: red;
   position: absolute;
   top: 0;
   right: 0;
@@ -27,7 +25,6 @@
 }
 
 .title {
-  border: 1px solid;
   font-size: 2.1875rem;
   font-weight: 400;
   font-family: var(--main-font);
@@ -38,7 +35,6 @@
 }
 
 .footerBtn {
-  border: 1px solid;
   margin: 1.3rem 0;
   display: flex;
   flex-direction: column;
@@ -48,7 +44,6 @@
 .input,
 .btn {
   padding: 20px 20px 20px 32px;
-  border: 1px solid;
   border-radius: 100px;
   margin: 0.5rem 0;
   font-size: 1.25rem;
@@ -82,7 +77,6 @@
   font-family: var(--sub-font);
   text-align: center;
   padding-top: 5px;
-  display: none;
 }
 
 
@@ -104,4 +98,53 @@
     width: 60vmin;
     height: 55vmin;
   }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .title {
+    max-width: 700px;
+  }
+
+  .FooterMain {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .footerBtn {
+    max-width: 700px;
+    width: 80%;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+  }
+
+  .input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    grid-area: 1/1/1/2;
+  
+  }
+  .btn {
+    width: 100%;
+  }
+
+  .error {
+    grid-area: 2/1/2/-1;
+    display: none;
+  }
+
+  .FooterMain::after  {
+    height: 120vmin;
+    width: 130vmin;
+    transform: translateX(30%) translateY(-75%);
+
+  }
+  
 }

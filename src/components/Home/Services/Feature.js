@@ -23,7 +23,7 @@ const Feature = () => {
     <div className={style.feature}>
       {data.map((el, i) => (
         <div className={style.featureCard} key={i}>
-          <figure aria-hidden="true">
+          <figure aria-hidden="true" className={style.figureImg}>
             <img src={pic} alt="" />
           </figure>
 

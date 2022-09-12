@@ -1,5 +1,4 @@
 .FooterNavigation {
-  /* border: 1px solid; */
   margin: 2rem 0;
   padding: 0 0.5rem;
 }
@@ -15,12 +14,10 @@
 }
 
 .navigation {
-  /* border: 1px solid; */
   margin: 1.5rem 0;
 }
 
 .navBox {
-  /* border: 1px solid; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -28,7 +25,6 @@
 }
 
 .navHeader {
-  /* border: 1px solid; */
   padding: 0.5rem 0;
   font-size: 1rem;
   color: var(--black);
@@ -54,7 +50,6 @@
 }
 
 .hiringTag {
-  /* border: 1px solid; */
   font-size: 0.75rem;
   font-weight: 700;
   font-family: var(--sub-font);
@@ -68,9 +63,9 @@
 
 @media screen and (min-width:768px) {
   .FooterNavigation {
-    border: 1px solid;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
+    margin-top: 4rem;
   }
 
   .aboutBox a {

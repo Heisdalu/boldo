@@ -47,22 +47,7 @@ img {
   height: 72px !important;
   width: 72px !important;
   transform: translateY(-90px);
-}
-
-.carousel-prev {
-  right: 105px !important;
-  left: auto !important;
-  background-image: none !important;
-  background-repeat: no-repeat;
-}
-
-.carousel-next::before {
-  background-image: url(./assets/arrow-right.svg) !important;
-}
-
-.carousel-prev::before {
-  background-image: url(./assets/arrow-right.svg) !important;
-  transform: rotate(180deg);
+  display: none;
 }
 
 

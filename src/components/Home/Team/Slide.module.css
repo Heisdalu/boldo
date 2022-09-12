@@ -13,12 +13,9 @@
 }
 
 .slideDetail{
-    /* border: 1px solid; */
     margin-top:1.5rem ;
     padding: 1rem 0;
-    /* display: grid; */
     display: flex;
-    /* grid-template-columns: 0.5fr 1fr; */
 }
 
 .pic{
