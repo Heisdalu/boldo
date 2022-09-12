@@ -1,0 +1,48 @@
+.navigationContainer {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.navigation {
+  position: fixed;
+  display: none;
+}
+
+.hamburger {
+  margin-left: auto;
+  outline: none;
+  z-index: 2;
+}
+
+@media screen and (min-width: 1200px) {
+  .navigation {
+    display: block;
+    margin-left: auto;
+    position: static;
+    z-index: 11;
+  }
+
+  .navigation a {
+    font-size: 1rem;
+    margin-left: 40px;
+    font-family: var(--sub-font);
+    font-weight: 600;
+    color: var(--white);
+  }
+
+  .navigation button {
+    margin-left: 40px;
+    padding: 0.8rem 2.6rem;
+    border-radius: 24px;
+    background-color: var(--white);
+    font-size: 1rem;
+    color: var(--dark-blue);
+    font-family: var(--sub-font);
+    font-weight: 700;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
