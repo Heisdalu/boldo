@@ -39,10 +39,6 @@
   transform: rotate(180deg);
 }
 
-.mainSlider {
-  border: 1px solid;
-  background-color: red;
-}
 
 @media screen and (min-width: 768px) {
   .sliderContainer {
@@ -65,6 +61,7 @@
 @media screen and (min-width: 1200px) {
   .sliderContainer {
     padding: 4rem 5rem;
+    padding-bottom: 6rem;
   }
 
 }

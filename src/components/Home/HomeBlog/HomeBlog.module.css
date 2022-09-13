@@ -47,5 +47,6 @@
 
   .main {
     margin-top: 4rem;
+    grid-gap: 7rem;
   }
 }
