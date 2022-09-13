@@ -17,7 +17,6 @@
 
 @media screen and (min-width: 768px) {
     .illustration {
-        /* background-color: red; */
         position: relative;
         z-index: 10;
         overflow: hidden;
@@ -31,7 +30,6 @@
         top: 0;
         z-index: -1;
         background-color: var(--dark-blue);
-        /* background-color: red; */
         border-radius:15px ;
 
     }
