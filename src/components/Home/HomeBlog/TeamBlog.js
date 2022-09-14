@@ -1,6 +1,6 @@
 import style from "./TeamBlog.module.css";
 import TeamBlogSlide from "./TeamBlogSlide";
-import { teamData } from "../../../data";
+import { teamData } from "../../../data/data";
 
 const TeamBlog = () => {
 

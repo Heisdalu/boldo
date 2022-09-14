@@ -1,14 +1,14 @@
-import albus_pic from "./assets/albus.png";
-import snape_pic from "./assets/snape.png";
-import harry_pic from "./assets/harry.png";
+import albus_pic from "../assets/albus.png";
+import snape_pic from "../assets/snape.png";
+import harry_pic from "../assets/harry.png";
 
 // Team Blog Data Imports
-import daytonBg from "./assets/daytonBg.jpeg";
-import daytonPic from "./assets/daytonPic.png";
-import gloverBg from "./assets/gloverBg.jpeg";
-import gloverPic from "./assets/gloverPic.png";
-import gloverBg2 from "./assets/gloverPic2.jpg";
-import gloverPic2 from "./assets/gloverPic2.png";
+import daytonBg from "../assets/daytonBg.jpeg";
+import daytonPic from "../assets/daytonPic.png";
+import gloverBg from "../assets/gloverBg.jpeg";
+import gloverPic from "../assets/gloverPic.png";
+import gloverBg2 from "../assets/gloverPic2.jpg";
+import gloverPic2 from "../assets/gloverPic2.png";
 
 export const data = [
   {

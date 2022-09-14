@@ -2,7 +2,7 @@
 import Slider from "infinite-react-carousel";
 import { useState } from "react";
 import Slide from "./Slide";
-import { data } from "../../../data";
+import { data } from "../../../data/data";
 
 const checkWidth = () => {
   // mobile screen
