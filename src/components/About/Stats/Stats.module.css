@@ -1,0 +1,40 @@
+.statsWrapper {
+  background-color: var(--dark-blue);
+}
+
+.statsMain {
+  padding: 2rem 1rem;
+  text-align: center;
+  border: 1px solid red;
+  font-family: var(--main-font);
+}
+
+.subTitle {
+  color: var(--light-gray);
+}
+
+.title {
+  font-size: 2.1875rem;
+  color: var(--white);
+  padding: 1rem 0;
+}
+
+.stats {
+  border: 1px solid red;
+}
+
+.counter {
+  border: 1px solid;
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 4rem;
+  color: var(--green);
+}
+
+.name {
+  color: var(--light-gray);
+}
