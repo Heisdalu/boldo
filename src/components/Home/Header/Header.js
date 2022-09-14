@@ -1,5 +1,5 @@
 import style from "./Header.module.css";
-import Navigation from "./Navigation";
+import Navigation from "../../Navigation/Navigation";
 import Illustration from "./Illustration";
 import Marquee from "./Marquee";
 

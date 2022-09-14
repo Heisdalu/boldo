@@ -1,6 +1,6 @@
 import style from "./Navigation.module.css";
-import Logo from "../../Logo/Logo";
-import Hamburger from "../../../assets/Hamburger.svg";
+import Logo from "../Logo/Logo";
+import Hamburger from "../../assets/Hamburger.svg";
 
 const Navigation = () => {
   window.addEventListener("click", (e) => {
