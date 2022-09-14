@@ -1,0 +1,28 @@
+.gallery {
+  border: 1px solid;
+  padding: 2rem 0;
+}
+
+.storyGallery {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.storyGallery:last-child {
+    margin-bottom: 0;
+}
+
+.storyGallery:nth-child(2),
+.storyGallery:nth-child(4) {
+  display: none;
+}
+
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+
+
