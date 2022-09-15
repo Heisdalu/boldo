@@ -5,7 +5,7 @@ import womanWebp from "../../../assets/woman.webp";
 import womanPng from "../../../assets/woman.png";
 import peopleWebp from "../../../assets/people-gathering.webp";
 import peoplePng from "../../../assets/people-gathering.png";
-import walkingMan from "../../../assets/feature1.svg";
+import walkingMan from "../../../assets/gallery-green.svg";
 import staringPic from "../../../assets/staring-man.svg";
 
 const Gallery = () => {

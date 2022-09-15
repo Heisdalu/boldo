@@ -10,7 +10,9 @@
 }
 
 @media screen and (min-width: 1200px) {
- .footer {
-  padding: 3rem 5rem;
- }
+  .footer {
+    padding: 3rem 5rem;
+    max-width: 1800px;
+    margin: 0 auto;
+  }
 }

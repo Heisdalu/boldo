@@ -2,10 +2,10 @@ import style from "./About.module.css";
 
 const About = () => {
   return (
-    <div class={style.aboutWrapper}>
+    <div className={style.aboutWrapper}>
       <div className={style.aboutContainer}>
         <div className={style.aboutHeader}>
-          <span class={style.subTitle}>Our Blog</span>
+          <span className={style.subTitle}>Our Blog</span>
           <h1 className={style.title}>
             Value proposition accelerator product management venture
           </h1>
@@ -27,8 +27,9 @@ const About = () => {
               We are <span className={style.unique}>responsible</span>
             </h1>
             <p className={style.content}>
-              Conversion angel investor entrepreneur first mover advantage.
-              Handshake infographic mass market crowdfunding iteration.
+              Mass market iPhone buzz conversion analytics stock iteration
+              responsive web design user experience business plan handshake.
+              Return on investment seed round MVP backing supply chain.
             </p>
           </div>
 

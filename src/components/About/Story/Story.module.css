@@ -38,3 +38,43 @@
   color: var(--gray);
 }
 
+@media screen and (min-width: 768px) {
+
+  .storyContainer {
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .storyMain {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    transform: translateY(-50px);
+  }
+
+  .subTitle {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 72px;
+  }
+
+  .text {
+    font-size: 1.25rem;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .storyContainer {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
+  .storyMain {
+    max-width: 800px;
+  }
+}

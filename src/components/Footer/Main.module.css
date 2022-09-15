@@ -149,3 +149,10 @@
   }
   
 }
+
+@media screen and (min-width: 1500px) {
+  .FooterMain::after  {
+    max-height: 50vmin;
+    max-width: 60vmin;
+  }
+}
