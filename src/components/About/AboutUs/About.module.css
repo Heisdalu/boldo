@@ -1,0 +1,60 @@
+.aboutWrapper {
+  background-color: var(--dark-blue);
+}
+
+.aboutContainer {
+  padding: 2rem 1rem;
+}
+
+.aboutHeader {
+  border: 1px solid;
+  text-align: center;
+}
+
+.subTitle {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--sub-font);
+  color: var(--light-gray);
+}
+
+.title {
+  font-size: 2.1875rem;
+  font-family: var(--main-font);
+  color: var(--white);
+  font-weight: 400;
+  padding: 1rem 0;
+  line-height: 54.6px;
+}
+
+.AboutMain {
+  border: 1px solid;
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: 400;
+  margin-top:1rem ;
+}
+
+.aboutContent {
+    margin: 1rem 0 3rem 0;
+    border: 1px solid;
+}
+
+.aboutTitle {
+    font-size: 2rem;
+    font-family: var(--main-font);
+    color: var(--white);
+}
+
+.unique {
+    color: var(--green);
+}
+
+.content {
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    line-height: 24px;
+    color: var(--light-gray);
+    font-family: var(--sub-font);
+    font-weight: 400;
+}
