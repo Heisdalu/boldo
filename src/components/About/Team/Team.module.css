@@ -1,0 +1,37 @@
+.teamWraper {
+    background-color: var(--white);
+}
+
+.teamBox {
+    border: 1px solid;
+    padding: 2rem 1rem;
+}
+
+.header {
+    border: 1px solid;
+    text-align: center;
+    font-weight: 400;
+}
+
+.subTitle{
+    font-size: 1rem;
+    color: var(--gray);
+    font-family: var(--sub-font);
+}
+
+.title {
+    font-size: 2.1875rem;
+    padding: 1rem 0;
+    font-weight: 400;
+    font-family: var(--main-font);
+    color: var(--black);
+}
+
+.text {
+    border: 1px solid green;
+    line-height: 24px;
+    font-size: 1rem;
+    color: var(--gray);
+    font-family: var(--sub-font);
+
+}

@@ -1,0 +1,7 @@
+.staffContainer {
+  border: 1px solid;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
