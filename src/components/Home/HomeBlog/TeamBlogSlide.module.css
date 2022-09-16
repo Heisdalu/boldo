@@ -2,11 +2,16 @@
   margin: 1rem 0 2.5rem 0;
 }
 
+.blogPicBox {
+  width: 100%;
+}
+
 
 .blogPicBox img {
   border-radius: 16px;
   height: auto;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .blogDetail {

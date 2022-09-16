@@ -1,92 +1,99 @@
 .detailContainer {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .mainTitle {
-    font-family: var(--main-font);
-    font-weight: 400;
-    color: var(--black);
-    line-height: 2.8125rem;
-    font-size: 1.875rem;
+  font-family: var(--main-font);
+  font-weight: 400;
+  color: var(--black);
+  line-height: 2.8125rem;
+  font-size: 1.875rem;
 }
 
-.mainText{
-    margin: 1rem 0;
-    padding: 0.5rem 0;
+.mainText {
+  margin: 1rem 0;
+  padding: 0.5rem 0;
 }
-
 
 .mainList {
-    display: flex;
-    margin: 1.5rem 0;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  margin: 1.5rem 0;
+  align-items: center;
+  list-style: none;
+}
+
+.figure {
+  width: 100%;
+}
+
+.figure img {
+  width: 100%;
+  height: auto;
 }
 
 .svg {
-    margin-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 
-.mainInfo{
-    font-size: 1rem;
-    line-height: 1.6rem;
-    font-family: var(--sub-font);
-    color: var(--black);
+.mainInfo {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-family: var(--sub-font);
+  color: var(--black);
 }
 
-.button{
-    width: 100%;
-    padding: 1.25rem;
-    border-radius: 50px;
-    font-weight: 700;
-    border: 2px solid var(--dark-blue);
-    cursor: pointer;
-    background-color: var(--dark-blue);
-    color: var(--white);
-    font-size: 1.25rem;
-    font-family: var(--sub-font);
-    margin: 2rem 0 1rem 0;
+.button {
+  width: 100%;
+  padding: 1.25rem;
+  border-radius: 50px;
+  font-weight: 700;
+  border: 2px solid var(--dark-blue);
+  cursor: pointer;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-size: 1.25rem;
+  font-family: var(--sub-font);
+  margin: 2rem 0 1rem 0;
 }
 
 @media screen and (min-width: 768px) {
-    .detailContainer {
-        margin-top: 4rem;
-    }
+  .detailContainer {
+    margin-top: 4rem;
+  }
 
-    .mainDetail{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  .mainDetail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-    .figure {
-        margin-right: 3rem;
-    }
+  .figure {
+    margin-right: 3rem;
+  }
 
-    .mainTitle {
-        font-size: 2.25rem;
-        line-height: 54px;
-    }
+  .mainTitle {
+    font-size: 2.25rem;
+    line-height: 54px;
+  }
 
-    .mainInfo{
-        font-size: 1.25rem;
-        line-height: 32px;
-    }
+  .mainInfo {
+    font-size: 1.25rem;
+    line-height: 32px;
+  }
 
-    .button {
-        width: auto;
-        padding: 1.1rem 3rem;
-    }
+  .button {
+    width: auto;
+    padding: 1.1rem 3rem;
+  }
 }
 
-
 @media screen and (min-width: 1200px) {
-   .mainDetail {
+  .mainDetail {
     justify-items: left;
     align-items: center;
     grid-column-gap: 5rem;
-   }
+  }
 
-   .figure {
+  .figure {
     margin: 0;
-   }
+  }
 }

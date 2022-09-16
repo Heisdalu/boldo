@@ -7,6 +7,15 @@
   margin: 1rem 0;
 }
 
+.teamPic {
+  width: 100%;
+}
+
+.teamPic img {
+  width: 100%;
+  height: auto;
+}
+
 .main {
   margin: 2rem 0;
   padding: 1rem 0;
