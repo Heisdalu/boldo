@@ -8,10 +8,10 @@ import BlogPage from "./pages/BlogPage/BlogPage";
 const App = () => {
   return (
     <Layout>
-      {/* <HomePage /> */}
+      <HomePage />
       {/* <AboutPage /> */}
       
-      <BlogPage />
+      {/* <BlogPage /> */}
     </Layout>
   );
 };

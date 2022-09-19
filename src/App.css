@@ -37,18 +37,10 @@ img {
   background-color: var(--green);
 }
 
-.carousel-initialized {
-  /* overflow: visible !important; */
-  padding: 30px 0 !important;
+.swiper{
+  display: flex;
+  flex-direction: column-reverse;
 }
 
-.carousel-next,
-.carousel-prev {
-  background-color: var(--white) !important;
-  height: 72px !important;
-  width: 72px !important;
-  transform: translateY(-90px);
-  display: none;
-}
 
 

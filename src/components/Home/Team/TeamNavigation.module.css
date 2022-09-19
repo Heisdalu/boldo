@@ -1,7 +1,5 @@
-.sliderContainer {
-  padding: 2rem 1rem;
-  padding-bottom: 5rem;
-  background-color: var(--dark-blue);
+.sliderHeader {
+    margin-bottom: 2rem;
 }
 
 .sliderTitle {
@@ -17,6 +15,7 @@
   justify-content: right;
   margin-left: auto;
   padding: 1rem 0;
+  align-self: flex-end;
 }
 
 .sliderNavigation button {
@@ -25,6 +24,7 @@
   height: 4.5rem;
   width: 4.5rem;
   background-color: var(--white);
+  cursor: pointer;
 }
 
 .sliderNavigation button svg {
@@ -42,27 +42,15 @@
 
 
 @media screen and (min-width: 768px) {
-  .sliderContainer {
-    padding: 3rem;
-  }
-
   .sliderHeader {
     display: flex;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 
   .sliderTitle {
     font-size: 3rem;
     line-height: 72px;
   }
-}
-
-@media screen and (min-width: 1200px) {
-  .sliderContainer {
-    padding: 4rem 5rem;
-    padding-bottom: 6rem;
-  }
-
 }

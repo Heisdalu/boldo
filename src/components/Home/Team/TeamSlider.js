@@ -1,8 +1,9 @@
-// import style from './TeamSlide.module.css';
-import Slider from "infinite-react-carousel";
 import { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 import Slide from "./Slide";
 import { data } from "../../../data/data";
+import TeamNavigation from "./TeamNavigation";
 
 const checkWidth = () => {
   // mobile screen
@@ -22,23 +23,17 @@ const TeamSlider = (props) => {
     setNum(newNum);
   });
 
-  console.log(num);
-
-  const settings = {
-    autoplay: true,
-    slidesToShow: num,
-  };
-
-  console.log(data);
-
   const component = data.map((el, i) => (
-    <Slide key={i} text={el.text} title={el.name} job={el.job} pic={el.pic} />
+    <SwiperSlide key={i} loop={true}>
+      <Slide text={el.text} title={el.name} job={el.job} pic={el.pic} />
+    </SwiperSlide>
   ));
   return (
     <div>
-      <Slider {...settings}>
+      <Swiper slidesPerView={num}>
+        <TeamNavigation />
         {component}
-      </Slider>
+      </Swiper>
     </div>
   );
 };
