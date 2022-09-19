@@ -21,7 +21,7 @@ export const articleData = [
   {
     name: "Monica Geller",
     blogPic: bluePic,
-    text: "Seed round direct mailing non-disclosure agreement graphical user interface rockstar.",
+    text: "Beta prototype sales iPad gen-z marketing network effects value proposition",
     avi: MonicaAvi,
   },
   {
@@ -39,7 +39,7 @@ export const articleData = [
   {
     name: "Rachel Green",
     blogPic: rachealBlogPic,
-    text: "Seed round direct mailing non-disclosure agreement graphical user interface rockstar.",
+    text: "Beta prototype sales iPad gen-z marketing network effects value proposition",
     avi: rachealAvi,
   },
 ];

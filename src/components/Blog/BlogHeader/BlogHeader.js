@@ -1,13 +1,14 @@
 import style from "./BlogHeader.module.css";
-import Navigation from "../../Navigation/Navigation";
 import pic from "../../../assets/BlogPic.png";
 import aviPic from '../../../assets/daytonPic.png'
+import BlogNavigation from "./BlogNavigation";
 
 const BlogHeader = () => {
   return (
     <div className={style.header}>
       <div className={style.blogNavBar}>
-        <Navigation />
+        {/* <Navigation /> */}
+        <BlogNavigation />
       </div>
 
       <section className={style.main}>
