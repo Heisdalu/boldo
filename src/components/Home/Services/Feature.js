@@ -1,20 +1,25 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import style from "./Feature.module.css";
-import pic from "../../../assets/feature1.svg";
+import pic1 from "../../../assets/feature1.svg";
 import { Arrow } from "../../../assets/Svg";
+import pic2 from '../../../assets/feature2.svg'
+import pic3 from '../../../assets/feature3.svg'
 
 const data = [
   {
     title: "Cool feature title",
     text: "  Learning curve network effects return on investment.",
+    pic: pic1
   },
   {
     title: "Even cooler feature",
     text: "  Learning curve network effects return on investment.",
+    pic: pic2
   },
   {
     title: "Cool feature title",
     text: "  Learning curve network effects return on investment.",
+    pic: pic3
   },
 ];
 
@@ -24,7 +29,7 @@ const Feature = () => {
       {data.map((el, i) => (
         <div className={style.featureCard} key={i}>
           <figure aria-hidden="true" className={style.figureImg}>
-            <img src={pic} alt="" />
+            <img src={el.pic} alt="" />
           </figure>
 
           <div className={style.featureContent}>
