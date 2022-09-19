@@ -1,7 +1,10 @@
+.wrapper {
+  background-color: var(--dark-blue);
+}
+
 .sliderContainer {
   padding: 2rem 1rem;
   padding-bottom: 5rem;
-  background-color: var(--dark-blue);
 }
 
 .sliderTitle {
@@ -63,6 +66,8 @@
   .sliderContainer {
     padding: 4rem 5rem;
     padding-bottom: 6rem;
+    max-width: 1800px;
+    margin: 0 auto;
   }
 
 }

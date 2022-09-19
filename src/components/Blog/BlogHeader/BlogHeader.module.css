@@ -31,7 +31,7 @@
 }
 
 .blogDetail {
-  max-width: 500px;
+  max-width: 700px;
   margin: 1rem auto;
 }
 
@@ -55,6 +55,7 @@
   font-size: 2.1875rem;
   margin: 0.5rem 0;
   color: var(--black);
+  font-family: var(--main-font);
 }
 
 .blogAvi {
@@ -80,6 +81,13 @@
   .mainTitle {
     font-size: 4rem;
     margin: 3rem 0;
+  }
+
+  .blogDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .blogDetailHeader h1 {
@@ -113,6 +121,11 @@
   .imageBox {
     max-width: 550px;
     margin-left: auto;
+  }
+
+  .blogDetail {
+    align-items:flex-start;
+    text-align: left;
   }
 
   .blogDetailHeader {

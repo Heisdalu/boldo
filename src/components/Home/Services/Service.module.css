@@ -1,3 +1,7 @@
+.wrapper {
+     background-color: var(--white);
+}
+
 .serviceContainer{
     display: flex;
     flex-direction: column;
@@ -48,6 +52,8 @@
 @media screen and (min-width: 1200px) {
     .serviceContainer {
         padding: 3rem 5rem;
+        max-width: 1800px;
+        margin:  0 auto;
         margin-top: 2rem;
         padding-bottom: 1rem;
     }

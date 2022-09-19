@@ -4,9 +4,11 @@ import TeamSlider from "./TeamSlider";
 const Team = () => {
 
   return (
-    <section className={style.sliderContainer}>
-      <TeamSlider />
-    </section>
+    <div className={style.wrapper}>
+      <section className={style.sliderContainer}>
+        <TeamSlider />
+      </section>
+    </div>
   );
 };
 
