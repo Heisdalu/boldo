@@ -1,6 +1,13 @@
+import { useState } from "react";
 import style from "./Main.module.css";
 
 const Main = () => {
+  const [error, setError] = useState(false);
+
+  const errorFunc = () => {
+    setError(true);
+  };
+
   return (
     <div className={style.FooterMain}>
       <h1 className={style.title}>
@@ -13,10 +20,14 @@ const Main = () => {
           placeholder="Your email address"
           className={style.input}
         />
-        <button className={style.btn}>Start Now</button>
-        <div className={style.error}>
-          Oops! Something went wrong while submitting the form.
-        </div>
+        <button className={style.btn} onClick={errorFunc}>
+          Start Now
+        </button>
+        {error && (
+          <div className={style.error}>
+            Oops! Something went wrong while submitting the form.
+          </div>
+        )}
       </div>
     </div>
   );
