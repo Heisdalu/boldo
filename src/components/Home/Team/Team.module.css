@@ -2,63 +2,9 @@
   background-color: var(--dark-blue);
 }
 
-.sliderContainer {
-  padding: 2rem 1rem;
-  padding-bottom: 5rem;
-}
-
-.sliderTitle {
-  font-size: 1.875rem;
-  font-weight: 400;
-  font-family: var(--main-font);
-  line-height: 2.8125rem;
-  color: var(--white);
-}
-
-.sliderNavigation {
-  display: flex;
-  justify-content: right;
-  margin-left: auto;
-  padding: 1rem 0;
-}
-
-.sliderNavigation button {
-  padding: 1rem;
-  border-radius: 50%;
-  height: 4.5rem;
-  width: 4.5rem;
-  background-color: var(--white);
-}
-
-.sliderNavigation button svg {
-  height: 30px;
-  width: 35px;
-}
-
-.mainSlider {
-    display: flex;
-}
-.leftBtn {
-  margin-right: 2rem;
-  transform: rotate(180deg);
-}
-
-
 @media screen and (min-width: 768px) {
   .sliderContainer {
     padding: 3rem;
-  }
-
-  .sliderHeader {
-    display: flex;
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    margin-bottom: 1rem;
-  }
-
-  .sliderTitle {
-    font-size: 3rem;
-    line-height: 72px;
   }
 }
 
