@@ -47,6 +47,11 @@
   z-index: 555;
   position: relative;
   padding: 0.5rem;
+
+}
+
+.hamburgerLight {
+  background-color: var(--dark-blue);
 }
 
 .active {
@@ -83,6 +88,19 @@
     color: var(--dark-blue);
     font-family: var(--sub-font);
     font-weight: 700;
+  }
+
+  .light {
+    background-color: transparent;
+  }
+
+  .light a {
+    color: var(--dark-blue);
+  }
+
+  .light button {
+    border: 2px solid var(--dark-blue);
+    color: var(--dark-blue);
   }
 
   .hamburger {

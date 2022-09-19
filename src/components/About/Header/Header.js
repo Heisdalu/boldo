@@ -5,8 +5,7 @@ const Header = () => {
   return (
     <div className={style.aboutHeaderWrapper}>
       <div className={style.aboutHeaderMain}>
-        <Navigation />
-
+        <Navigation light={true} />
         <section className={style.aboutHeader}>
           <h1 className={style.title}>
             We love to make great things, things that matter.

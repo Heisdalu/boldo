@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className={style.wrapper}>
       <div className={style.headerContainer}>
-        <Navigation />
+        <Navigation light={true} />
 
         <section className={style.headerWrapper}>
           <div className={style.header}>

@@ -1,30 +1,39 @@
 import style from "./Navigation.module.css";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
 import Hamburger from "../../assets/Hamburger.svg";
+import { useRef } from "react";
 
-const Navigation = () => {
-  window.addEventListener("click", (e) => {
-    const clicked = e.target.closest(`.${style.hamburger}`);
-    if (!clicked) return;
-    
-    // show navbar and make hamburger active 
-    clicked.classList.toggle(`${style.active}`);
-    document
-      .querySelector(`.${style.navigation}`)
-      .classList.toggle(`${style.show}`);
-  });
+const Navigation = (props) => {
+  const navRef = useRef();
+
+  const classes = props.light
+    ? style.navigation
+    : `${style.navigation} ${style.light}`;
+
+  const hamburgerClasses = props.light
+    ? style.hamburger
+    : `${style.hamburger} ${style.hamburgerLight}`;
+
+  const activate = (e) => {
+    e.target.classList.toggle(`${style.active}`);
+    navRef.current.classList.toggle(`${style.show}`);
+  };
 
   return (
     <div className={style.navigationContainer}>
-      <Logo value={true} />
-      <nav className={style.navigation}>
-        <Link to='/blog'>Blog</Link>
+      <Logo value={props.light} />
+      <nav className={classes} ref={navRef}>
+        <Link to="/blog">Blog</Link>
         <a href="#.com">Products</a>
-        <Link to='/about'>About</Link>
+        <Link to="/about">About</Link>
         <button>Log in</button>
       </nav>
-      <button className={style.hamburger} arial-hidden="true">
+      <button
+        className={hamburgerClasses}
+        arial-hidden="true"
+        onClick={activate}
+      >
         <img src={Hamburger} alt="toggle btn" />
       </button>
     </div>
