@@ -1,6 +1,12 @@
 .illustration {
     width: 100%;
     z-index: 11;
+    opacity: 0;
+}
+
+.illustrationChange {
+    opacity: 1;
+    transition: all 1.5s;
 }
 
 .illustration img {
