@@ -2,16 +2,28 @@ import style from "./Detail.module.css";
 import pic1Webp from "../../../assets/smiling-man.webp";
 import pic1Png from "../../../assets/smiling-man.png";
 import OtherDetail from "./OtherDetail";
-import { Tick } from "../../../assets/Svg";
+import DetailList from "./DetailList";
+import { useContext } from "react";
+import StoreContext from "../../../store/store-context";
 
 const Detail = () => {
+  const { update } = useContext(StoreContext);
+
+  const load = () => {
+    update({ type: "ADD", value: 18 });
+  };
+
   return (
     <section className={style.detailContainer}>
       <div className={style.mainDetail}>
         <figure className={style.figure}>
           <picture>
             <source srcSet={pic1Webp} type="image/webp" />
-            <img src={pic1Png} alt="A man smiling with his phone on the ear" />
+            <img
+              src={pic1Png}
+              alt="A man smiling with his phone on the ear"
+              onLoad={load}
+            />
           </picture>
         </figure>
 
@@ -22,33 +34,9 @@ const Detail = () => {
           </h1>
 
           <ul className={style.mainText}>
-            <li className={style.mainList}>
-              <span className={style.svg}>
-                <Tick />
-              </span>
-              <span className={style.mainInfo}>
-                We connect of customers with the best.
-              </span>
-            </li>
-
-            <li className={style.mainList}>
-              <span className={style.svg}>
-                <Tick />
-              </span>
-
-              <span className={style.mainInfo}>
-                Advisor success customer launch party.
-              </span>
-            </li>
-
-            <li className={style.mainList}>
-              <span className={style.svg}>
-                <Tick />
-              </span>
-              <span className={style.mainInfo}>
-                Business-to-consumer long tail.
-              </span>
-            </li>
+            <DetailList text="We connect of customers with the best." />
+            <DetailList text="Advisor success customer launch party." />
+            <DetailList text=" Business-to-consumer long tail." />
 
             <button className={style.button}>Start Now</button>
           </ul>

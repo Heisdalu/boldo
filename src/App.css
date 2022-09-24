@@ -13,7 +13,7 @@
   --green: #65e4a3;
   --gray: #777777;
   --black: #000000;
-  --light-gray: #F1F1F1;
+  --light-gray: #f1f1f1;
 }
 
 body {
@@ -37,10 +37,15 @@ img {
   background-color: var(--green);
 }
 
-.swiper{
+.swiper {
   display: flex;
   flex-direction: column-reverse;
 }
 
+.word {
+  overflow: hidden;
+}
 
-
+.word span {
+  display: inline-block;
+}

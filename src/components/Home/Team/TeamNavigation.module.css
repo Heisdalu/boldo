@@ -12,8 +12,6 @@
 
 .sliderNavigation {
   display: flex;
-  justify-content: right;
-  margin-left: auto;
   padding: 1rem 0;
   align-self: flex-end;
 }
@@ -25,6 +23,10 @@
   width: 4.5rem;
   background-color: var(--white);
   cursor: pointer;
+}
+
+.leftBtn {
+  margin-left: auto;
 }
 
 .sliderNavigation button svg {

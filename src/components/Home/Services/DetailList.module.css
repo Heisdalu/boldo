@@ -1,0 +1,24 @@
+.mainList {
+  display: flex;
+  margin: 1.5rem 0;
+  align-items: center;
+  list-style: none;
+}
+
+.svg {
+  margin-right: 1.5rem;
+}
+
+.mainInfo {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-family: var(--sub-font);
+  color: var(--black);
+}
+
+@media screen and (min-width: 768px) {
+  .mainInfo {
+    font-size: 1.25rem;
+    line-height: 32px;
+  }
+}

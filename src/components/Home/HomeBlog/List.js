@@ -6,10 +6,9 @@ const List = () => {
   const dropDownRef = useRef();
   const svgRef = useRef();
 
-  const func = (e) => {
+  const func = () => {
     dropDownRef.current.classList.toggle(style.hiddenList);
     svgRef.current.classList.toggle(style.inverted);
-   console.log(svgRef.current);
   };
 
   return (

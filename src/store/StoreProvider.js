@@ -9,7 +9,6 @@ const initialState = {
 const dataReducer = (state, action) => {
 
     if(action.type === 'ADD') {
-       console.log('dd');
        return {
         ...state,
         elementValue: state.elementValue + action.value
@@ -28,7 +27,7 @@ const StoreProvider = (props) => {
 
   const allState = {
     ...dataState,
-    homePageState: dataState.elementValue === 100,
+    homePageState: dataState.elementValue >= 100,
     update: updateHandler,
   };
 

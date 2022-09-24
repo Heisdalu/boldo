@@ -13,14 +13,13 @@ const Loader = () => {
         boxRef.current.classList.add(style.homeAnimate);
       }, 500);
       setTimeout(() => {
-        console.log(boxRef);
         containerRef.current.classList.add(style.disabledHome);
       }, 1700);
     }
   }, [homePageState]);
 
   return (
-    <div className={style.homeBox} ref={containerRef}>
+    <div className={style.homeBox} ref={containerRef} aria-hidden="true">
       <div className={style.home} ref={boxRef}>
         <div
           className={style.counter}
