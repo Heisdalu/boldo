@@ -6,8 +6,12 @@
   font-size: 1.875rem;
   font-weight: 400;
   font-family: var(--main-font);
-  line-height: 2.8125rem;
+  line-height: 2.3125rem;
   color: var(--white);
+}
+
+.sliderTitle span span {
+  transform: translateY(105%) rotate(7deg);
 }
 
 .sliderNavigation {
@@ -53,6 +57,6 @@
 
   .sliderTitle {
     font-size: 3rem;
-    line-height: 72px;
+    line-height: 59px;
   }
 }

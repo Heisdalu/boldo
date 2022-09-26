@@ -11,14 +11,19 @@
 
 .mainInfo {
   font-size: 1rem;
-  line-height: 1.6rem;
+  line-height: 1.3rem;
   font-family: var(--sub-font);
   color: var(--black);
 }
 
+.mainInfo span span {
+  transform: translateY(105%) rotate(0deg);
+}
+
+
 @media screen and (min-width: 768px) {
   .mainInfo {
     font-size: 1.25rem;
-    line-height: 32px;
+    line-height: 26px;
   }
 }

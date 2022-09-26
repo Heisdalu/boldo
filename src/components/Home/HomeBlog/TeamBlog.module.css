@@ -14,9 +14,13 @@
 .headerText {
   padding: 1rem 0;
   font-size: 2.1875rem;
-  line-height: 3.4125rem;
+  line-height: 2.764rem;
   color: var(--black);
   font-family: var(--main-font);
+}
+
+.headerTitle span span, .headerText span span {
+  transform: translateX(105%) rotate(0);
 }
 
 .blogWrapper {
@@ -51,7 +55,7 @@
 
   .headerText {
     font-size: 3rem;
-    line-height: 74.88px;
+    line-height: 60.42px;
     max-width: 1000px;
     margin: 0 auto;
   }

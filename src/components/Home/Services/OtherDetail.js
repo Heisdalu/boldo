@@ -2,40 +2,45 @@ import style from "./OtherDetail.module.css";
 import womanPicWebp from "../../../assets/smiling-woman.webp";
 import womanPicPng from "../../../assets/smiling-woman.png";
 import { Sun, Eye, Star } from "../../../assets/Svg";
+import { useRef } from "react";
+import useAnimate from "../../../hooks/useAnimate";
+
+const OtherDetailList = (props) => {
+  const textRef = useRef(); 
+  useAnimate(textRef);
+  
+  return (
+    <li className={style.list} ref={textRef}>
+      <span className={style.svg}>{props.logo}</span>
+      <span className={style.text}>{props.text}</span>
+    </li>
+  );
+};
 
 const OtherDetail = () => {
+  const headerRef = useRef();
+
+  useAnimate(headerRef);
+
   return (
     <div className={style.otherDetailContainer}>
-      <h1 className={style.header}>
+      <h1 className={style.header} ref={headerRef}>
         We connect our customers with the best, and help them keep up-and stay
         open.
       </h1>
       <ul className={style.listBox}>
-        <li className={style.list}>
-          <span className={style.svg}>
-            <Star />
-          </span>
-          <span className={style.text}>
-            We connect our customers with the best.
-          </span>
-        </li>
-
-        <li className={style.list}>
-          <span className={style.svg}>
-            <Eye />
-          </span>
-          <span className={style.text}>
-            Advisor success customer launch party.
-          </span>
-        </li>
-
-        <li className={style.list}>
-          <span className={style.svg}>
-            <Sun />
-          </span>
-
-          <span className={style.text}>Business-to-consumer long tail.</span>
-        </li>
+        <OtherDetailList
+          logo={<Star />}
+          text="We connect our customers with the best."
+        />
+        <OtherDetailList
+          logo={<Eye />}
+          text="Advisor success customer launch party."
+        />
+        <OtherDetailList
+          logo={<Sun />}
+          text="Business-to-consumer long tail."
+        />
       </ul>
 
       <figure className={style.image}>

@@ -24,11 +24,16 @@ const data = [
 ];
 
 const Feature = () => {
-
   return (
     <div className={style.feature}>
       {data.map((el, i) => (
-        <FeatureSlide pic={el.pic} title={el.title} text={el.text} key={i} />
+        <FeatureSlide
+          pic={el.pic}
+          title={el.title}
+          text={el.text}
+          key={i}
+          value={i}
+        />
       ))}
     </div>
   );
