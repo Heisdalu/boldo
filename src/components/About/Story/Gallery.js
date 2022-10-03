@@ -9,7 +9,6 @@ import walkingMan from "../../../assets/gallery-green.svg";
 import staringPic from "../../../assets/staring-man.svg";
 
 const Gallery = () => {
-  // console.log(galleryData);
   return (
     <div className={style.gallery}>
       <figure className={style.storyGallery} aria-hidden="true">

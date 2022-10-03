@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import useAnimate from "../../../hooks/useAnimate";
-import useSplitting from "../../../hooks/useSplitting";
 import Gallery from "./Gallery";
 import style from "./Story.module.css";
 
