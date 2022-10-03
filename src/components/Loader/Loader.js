@@ -1,6 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import StoreContext from "../../store/store-context";
 import style from "./Loader.module.css";
+import LoaderWave from "./LoaderWave";
 
 const Loader = () => {
   const { elementValue, homePageState } = useContext(StoreContext);
@@ -23,12 +24,11 @@ const Loader = () => {
       className={`${style.homeBox} loaderBox`}
       ref={containerRef}
       aria-hidden="true"
-    >
+      >
       <div className={style.home} ref={boxRef}>
-        <div
-          className={style.counter}
-          style={{ height: `${elementValue}%` }}
-        ></div>
+        <div className={style.counter} style={{ height: `${elementValue}%` }}>
+      <LoaderWave />
+        </div>
       </div>
       <div className={style.valuePercent}>
         {elementValue}
