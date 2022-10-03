@@ -17,6 +17,10 @@
   font-family: var(--sub-font);
 }
 
+.subTitle span span {
+  transform: translateY(105%) rotate(7deg);
+}
+
 .title {
   font-size: 2.1875rem;
   padding: 1rem 0;
@@ -25,11 +29,19 @@
   color: var(--black);
 }
 
+.title span span {
+  transform: translateY(105%) rotate(7deg);
+}
+
 .text {
   line-height: 24px;
   font-size: 1rem;
   color: var(--gray);
   font-family: var(--sub-font);
+}
+
+.text span span {
+  transform: translateY(105%) rotate(7deg);
 }
 
 @media screen and (min-width: 768px) {

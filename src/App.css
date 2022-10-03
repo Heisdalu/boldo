@@ -16,9 +16,21 @@
   --light-gray: #f1f1f1;
 }
 
-body {
+body{
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* overflow: hidden; */
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--gray);
+  border-radius: 50px;
 }
 
 a,
@@ -50,7 +62,6 @@ img {
 .word span {
   display: inline-block;
 }
-
 
 .titleAnimate span span {
   will-change: transform;

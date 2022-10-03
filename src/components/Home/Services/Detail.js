@@ -11,9 +11,11 @@ import useIntersectionObserver from "../../../hooks/useIntersectionObserver";
 const Detail = () => {
   const headerRef = useRef();
   const btnRef = useRef();
+  const imgRef = useRef();
   const { update } = useContext(StoreContext);
 
   useAnimate(headerRef);
+  useAnimate(imgRef, style.figureAnimate);
 
   const isBututonVisible = useIntersectionObserver(btnRef);
 
@@ -24,7 +26,7 @@ const Detail = () => {
   return (
     <section className={style.detailContainer}>
       <div className={style.mainDetail}>
-        <figure className={style.figure}>
+        <figure className={style.figure} ref={imgRef}>
           <picture>
             <source srcSet={pic1Webp} type="image/webp" />
             <img
@@ -42,7 +44,7 @@ const Detail = () => {
           </h1>
 
           <ul className={style.mainText}>
-            <DetailList text="We connect of customers with the best." />
+            <DetailList text="We connect our customers with the best." />
             <DetailList text="Advisor success customer launch party." />
             <DetailList text=" Business-to-consumer long tail." />
 

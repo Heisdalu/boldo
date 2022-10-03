@@ -15,7 +15,7 @@ const checkWidth = () => {
     return 2;
 };
 
-const TeamSlider = (props) => {
+const TeamSlider = () => {
   const [num, setNum] = useState(checkWidth());
   window.addEventListener("resize", () => {
     // when windows resizes, check for our current breakpoints

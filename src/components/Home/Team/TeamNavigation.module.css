@@ -18,6 +18,12 @@
   display: flex;
   padding: 1rem 0;
   align-self: flex-end;
+  opacity: 0;
+}
+
+.sliderNavigationAnimate {
+  opacity: 1;
+  transition: opacity 1s;
 }
 
 .sliderNavigation button {

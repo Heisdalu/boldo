@@ -20,6 +20,10 @@
   color: var(--gray);
 }
 
+.subTitle span span {
+  transform: translateY(105%) rotate(7deg);
+}
+
 .title {
   font-size: 2.1rem;
   line-height: 54.6px;
@@ -27,6 +31,10 @@
   color: var(--black);
   font-weight: 400;
   padding: 0.5rem 0;
+}
+
+.title span span {
+  transform: translateY(105%) rotate(7deg);
 }
 
 .text {
@@ -38,8 +46,11 @@
   color: var(--gray);
 }
 
-@media screen and (min-width: 768px) {
+.text span span {
+  transform: translateY(105%) rotate(7deg);
+}
 
+@media screen and (min-width: 768px) {
   .storyContainer {
     flex-direction: column;
     padding-left: 3rem;
@@ -59,7 +70,7 @@
 
   .title {
     font-size: 3rem;
-    line-height: 72px;
+    line-height: 60px;
   }
 
   .text {

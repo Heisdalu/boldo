@@ -7,13 +7,20 @@ const initialState = {
 };
 
 const dataReducer = (state, action) => {
+  if (action.type === "ADD") {
+    return {
+      ...state,
+      elementValue: state.elementValue + action.value,
+    };
+  }
 
-    if(action.type === 'ADD') {
-       return {
-        ...state,
-        elementValue: state.elementValue + action.value
-       }
-    }
+  if (action.type === "OFF") {
+    return {
+      ...state,
+      elementValue: 100,
+      homePageState: true,
+    };
+  }
 
   return state;
 };

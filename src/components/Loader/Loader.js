@@ -19,7 +19,11 @@ const Loader = () => {
   }, [homePageState]);
 
   return (
-    <div className={style.homeBox} ref={containerRef} aria-hidden="true">
+    <div
+      className={`${style.homeBox} loaderBox`}
+      ref={containerRef}
+      aria-hidden="true"
+    >
       <div className={style.home} ref={boxRef}>
         <div
           className={style.counter}

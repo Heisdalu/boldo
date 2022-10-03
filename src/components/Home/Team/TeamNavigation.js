@@ -8,14 +8,16 @@ const TeamNavigation = () => {
   const swiper = useSwiper();
 
   const headerRef = useRef();
+  const btnRef = useRef();
   useAnimate(headerRef)
+  useAnimate(btnRef, style.sliderNavigationAnimate);
 
   return (
     <div className={style.sliderHeader}>
       <h1 className={style.sliderTitle} ref={headerRef}>
         An enterprise template to ramp up your company website
       </h1>
-      <div className={style.sliderNavigation}>
+      <div className={style.sliderNavigation} ref={btnRef}>
         <button className={style.leftBtn} onClick={() => swiper.slidePrev()}>
           <Arrow />
         </button>

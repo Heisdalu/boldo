@@ -21,7 +21,15 @@
 
 .figure {
   width: 100%;
+  opacity: 0;
 }
+
+.figureAnimate {
+  opacity: 1;
+  transition: opacity .7s;
+}
+
+
 
 .figure img {
   width: 100%;
