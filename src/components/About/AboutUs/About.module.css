@@ -51,6 +51,7 @@
   top: 0;
   animation-name: mainAnimate;
   animation-duration: 1.5s;
+  animation-fill-mode: forwards;
   border-top: 1px solid var(--white);
 }
 
