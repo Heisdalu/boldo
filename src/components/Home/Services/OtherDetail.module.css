@@ -6,7 +6,7 @@
   font-family: var(--main-font);
   font-weight: 400;
   color: var(--black);
-  line-height: 2.3125rem;
+  line-height: 2.86rem;
   font-size: 1.875rem;
 }
 
@@ -36,7 +36,7 @@
   font-family: var(--sub-font);
   font-size: 0.8rem;
   font-weight: 600;
-  line-height: 1.04rem;
+  line-height: 1.37rem;
   color: var(--dark-blue);
 }
 
