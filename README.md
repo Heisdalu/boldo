@@ -22,7 +22,7 @@ Boldo Multi-Page Template Website.
 
 ### Links
 
-- Live Site URL: [Click here]()
+- Live Site URL: [Click here](https://daalu-boldo.netlify.app/)
 
 ### Built with
 
@@ -41,7 +41,7 @@ Boldo Multi-Page Template Website.
 - after installation of packages, run npm start
 
 ## Acknowledgement
-- Got the figma design from a webflow template.
+- Edgar Allan designed it.
 
 ## Author
 
